@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class FollowerRecord:
+    """Represents a single Instagram follower's data."""
     username:     str
     full_name:    str
     user_id:      str
